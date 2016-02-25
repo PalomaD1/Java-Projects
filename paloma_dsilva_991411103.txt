@@ -1,0 +1,60 @@
+<!doctype html>
+<!-- Tables Assignment for Web Dev Class -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Paloma_DSilva_991411103</title>
+		
+		
+	<br>
+	<style>
+	<p  
+	{
+    color: black;
+    font-family: arial;
+    font-size: 90%;}
+>
+</style>
+</head>
+<body>
+		<table border="2">
+			<tr>
+				<td colspan=3>Top Websites</td>
+				<td>Logo</td>
+				<td>Facts</td>
+				</tr>
+			    <td rowspan="3" colspan="2">Search Engines</td>
+				<td>Google</td>
+				<td><img src=http://images.forbes.com/media/lists/companies/google_416x416.jpg alt="Google" width="100" height="100"></td>
+				<td> <ul> <dl><dt><li>Year Founded: 1998 </li></dt> <dt><li>Founded by: Sergey Brin, Larry Page</li> </dt></ul></dl></td>
+				<tr>
+				<td>Bing</td>
+				<td><img src=http://rack.1.mshcdn.com/media/ZgkyMDEzLzA5LzE2L2JjL0Jpbmdsb2dvb3JhLmFkYjJkLnBuZwpwCXRodW1iCTEyMDB4OTYwMD4/996d9598/35b/Bing-logo-orange-RGB.png alt="Bing" width="100" height="100" </td>
+				<td><ul><dl><dt><li>Year Founded: 2009 </li></dt><dt><li>Founded by: Microsoft Corporation</li></dt></ul></dl></td>
+				</tr>
+				<tr>
+				<td>Yahoo</td>
+				<td><img src=http://www.etoro.com/blog/wp-content/uploads/2013/09/yahoo_logo.png alt="Yahoo" width="100" height="100"></td>
+				<td><ul><dl><dt><li>Year Founded: 1994 </li></dt><dt><li>Founded by: Jerry Yang, David Filo </li></dt></ul></dl></td>
+				</tr>
+				<tr>
+				<td rowspan="3" colspan="2">Social Networking</td>
+				<td>Facebook</td>
+				<td><img src=http://i.forbesimg.com/media/lists/companies/facebook_416x416.jpg alt="Facebook" width="100" height="100"></td>
+				<td><ul><dl><dt><li>Year Founded: 2004</li></dt><dt> <li>Founded by: Mark Zuckerberg</li></dt></ul></dl></td>
+				</tr>
+				<td>Twitter</td>
+				<td><img src=https://cdn.downdetector.com/static/uploads/c/300/a4e0b/twitter-logo_22.png alt="Twitter" width="100" height="100"></td>
+				<td><ul><dl><dt><li>Year Founded: 2006 </li></dt><dt><li>Founded by: Jack Dorsey, Evan Williams, <br>Christopher Stone, Noah Glass</br></li> </dt></dl></ul></td>
+				<tr>
+				<td>LinkedIn</td>
+				<td><img src=https://business.linkedin.com/content/dam/business/g/en-us/default-share.png alt="LinkedIn" width="100" height="100"></td>
+				<td><ul> <dl><dt><li>Year Founded: 2002</li></dt><dt><li> Founded by: Reid Hoffman </li></dt></dl></ul></td>
+				</tr>
+				</head>
+			</p>
+			
+			</body>
+
+</br>
+</html>
