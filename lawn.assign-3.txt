@@ -1,0 +1,111 @@
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+
+namespace MyDemos
+{
+    class A2P1Lawn
+    {
+        static void Main(string[] args)
+        {
+            // Declare and initialize variables
+            double NUMWEEKS= 20.0,
+                   minsize= 400.0,
+                   length= 0.0; 
+                    fee=25.00,
+
+                   area=0.0;
+
+                total=0.0;
+
+            const double fee = 25;
+            const double NUMWEEKS = 20.0;
+
+            // Prompt user
+            Console.Write("Enter the length of the lawn(m)");
+            length = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter the width of the lawn (m)");
+            width = Convert.ToDouble(Console.ReadLine());
+
+
+            Console.Write("Enter number of years worked: ");
+            yearsEmployed = Convert.ToInt16(Console.ReadLine());
+
+           
+            // Calculate the area
+           area= length*width;
+
+                       // If the area is less than 600 sq ft, then the fee is $35, which is $25+10.
+            if (area <600)
+            {
+               {
+                    // Calculate the new fee
+                    fee = fee + 10;
+
+ 
+
+ 
+
+            // If the area is more than 600 sq ft, then the fee is $50, which is $25+25.
+            if (area >600)
+            {
+               {
+                    // Calculate the new fee
+                    fee = fee + 25;
+
+ 
+
+// Calculate the total amount owing
+           total= NUMWEEKS*fee;
+
+                    // Inform user and display the fee owed for the lawn size
+                   Console.WriteLine( );
+
+              Console.Write("\nFor a  ", length);
+
+                Console.Write("by");
+
+           Console.Write(" ", width);
+
+                Console.Write(" lawn with a total area of  ");
+
+       Console.Write(" ", area);
+
+    Console.Write(" square feet, the weekly fee is  ");
+
+  Console.WriteLine(" ", fee);
+
+ 
+
+
+                }
+                {
+                   
+                    // Inform user and display the sales bonus as a percent with no decimal places 
+                    Console.WriteLine("\nExcellent! You have earned a sales bonus of {0:P0}", SALES_BONUS_LEVEL2);
+                }
+                // Give smallest bonus if less than 500.0
+                else
+                {
+                    // Calculate the New Weekly Pay with the Sales Bonus
+                    newWeeklyPay = newWeeklyPay * (SALES_BONUS_LEVEL3 + 1);
+
+                    // Inform user and display the sales bonus as a percent with no decimal places 
+                    Console.WriteLine("\nVery Good! You have earned a sales bonus of {0:P0}", SALES_BONUS_LEVEL3);
+                }
+            }
+
+            // Display result
+            Console.WriteLine("\nThe new weekly pay is {0:C}\n", newWeeklyPay);
+
+            // Display the total           
+           
+                Console.WriteLine("For a 20-week season, the total is {0:C}\n, total  ");
+                                Console.WriteLine( );
+        }
+    }
+}
